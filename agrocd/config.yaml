@@ -3,7 +3,7 @@ apiVersion: v1
 data:
   job.properties: |
     DEM001CP DemoApp -param:pEndDate=2021-03-31|-param:prevDateRun=Y|-param:prunPartition=_part1
-    SQL001 -param:pEndDate=2021-03-31
+    SQL001 -param:pEndDate=
 kind: ConfigMap
 metadata:
   name: analytics-job-properties-config
